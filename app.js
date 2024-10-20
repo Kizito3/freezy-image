@@ -10,7 +10,7 @@ function generateImg() {
 else{
 // GENERATE A PLACEHOLDER IMAGE URL BASED ON THE ENTERED TEXT/INPUT
 
-const placeholderImageUrl = 'https://source.unsplash.com/featured/?' + text;
+const placeholderImageUrl = 'https://unsplash.com/?' + text;
 
 // create an image element
 const imageElement = document.createElement('img');
